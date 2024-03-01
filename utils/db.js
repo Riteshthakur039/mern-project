@@ -1,9 +1,9 @@
 const mong = require("mongoose")
 
-const username = "thakur039";
-const password = "Ritesh@039"; // Your actual password
-const cluster = "cluster0";
-const dbname = "mern_admin";
+const username = "";
+const password = ""; // Your actual password
+const cluster = "";
+const dbname = "";
 
 const URI = `mongodb+srv://${encodeURIComponent(username)}:${encodeURIComponent(password)}@${cluster}.mlkqsda.mongodb.net/${dbname}?retryWrites=true&w=majority`;
 
